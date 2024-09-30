@@ -1,0 +1,38 @@
+# Fundamentals of Markdown
+
+## Instructions 
+- Use **headers** for the title and sections.
+- Make certain words **bold** and _italicized_.
+- Include a **quote** block with proper indentation.
+- Add a **link** to the official Holberton School website.
+- Insert an **image** of the Holberton logo using the provided URL.
+
+## Task
+
+Your task is to write a document that contains the text below, along with its style. Provide an **exact replica**. 
+
+
+## **Holberton School: The Journey Begins**
+
+Welcome to **Holberton School**, where _curiosity_ leads to discovery! Our mission is to train the next generation of **software engineers**.
+
+#### What We Learn
+At Holberton, students learn:
+1. **Programming languages** like Python, C, and JavaScript
+2. **Version control** with Git and GitHub
+3. **Linux systems** and command-line skills
+
+#### Why Choose Us?
+Holberton provides a unique, hands-on approach to learning. Every student works on **real projects** and collaborates with others. You’ll build a **portfolio** that shows off your skills to future employers.
+
+> *"Learning to write programs stretches your mind and helps you think better!"*  
+> \- Bill Gates
+
+#### Check Us Out Online
+You can find more about us on our [official website](https://www.holbertonschool.com).
+
+![Holberton Logo](https://www.holbertonschool.com/images/holberton-logo.png)
+
+#### Ready to Code?
+Let’s get started on this amazing journey. **Holberton is more than a school—it’s a community!**
+
