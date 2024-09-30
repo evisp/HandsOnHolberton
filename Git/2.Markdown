@@ -12,6 +12,9 @@
 Your task is to write a document that contains the text below, along with its style. Provide an **exact replica**. 
 
 
+![Holberton Logo](https://ml.globenewswire.com/Resource/Download/a08e6c28-55be-44c8-8461-03544f094b38)
+
+
 ## **Holberton School: The Journey Begins**
 
 Welcome to **Holberton School**, where _curiosity_ leads to discovery! Our mission is to train the next generation of **software engineers**.
@@ -30,8 +33,6 @@ Holberton provides a unique, hands-on approach to learning. Every student works 
 
 #### Check Us Out Online
 You can find more about us on our [official website](https://www.holbertonschool.com).
-
-![Holberton Logo](https://ml.globenewswire.com/Resource/Download/a08e6c28-55be-44c8-8461-03544f094b38)
 
 #### Ready to Code?
 Let’s get started on this amazing journey. **Holberton is more than a school—it’s a community!**
