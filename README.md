@@ -9,6 +9,6 @@ This repository offers hands-on exercises for Holberton students to practice and
 ## Table of Contents
 
 - [Linux Basics](LinuxFundamentals/): Learn fundamental Linux commands and directory structure through hands-on tasks.
-- [Text Editors](TextEditors/): Explore the use of various text editors, including basic commands and functionalities.
-- [Git](Git/): Understand version control with Git, including repository management and common workflows.
+- [Text Editors](TextEditors/): Explore the use of `Vi` and `Emacs`, including basic commands and functionalities.
+- [Git](Git/): Understand version control with `Git`, including repository management and common workflows.
 
