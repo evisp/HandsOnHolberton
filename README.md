@@ -1,5 +1,5 @@
 
-<img src="https://ml.globenewswire.com/Resource/Download/a08e6c28-55be-44c8-8461-03544f094b38" alt="Holberton Logo" width="200"/>
+<img src="https://ml.globenewswire.com/Resource/Download/a08e6c28-55be-44c8-8461-03544f094b38" alt="Holberton Logo" width="400"/>
 
 
 # Hands On Holberton
