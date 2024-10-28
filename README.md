@@ -6,10 +6,11 @@ This repository provides hands-on exercises for Holberton students, designed to 
 
 ## Table of Contents
 
-- [Linux Basics](#linux-basics)
-- [Text Editors](#text-editors)
-- [Git](#git)
-- [C Programming](#c-programming)
+- [Linux Basics](#linux-basics): Learn essential commands and directory structure in a Unix environment.
+- [Text Editors](#text-editors): Practice using `Vi` and `Emacs` for text editing.
+- [Git](#git): Understand Git fundamentals, including version control workflows and documentation with Markdown.
+- [C Programming](#c-programming): Explore C programming from basics to more advanced topics.
+
 
 ## Linux Basics
 
@@ -26,7 +27,10 @@ The `TextEditors` folder contains exercises to get comfortable with popular text
 
 ## Git
 
-In the `Git` folder, learn version control fundamentals with Git. Topics covered include repository management, commit practices, branching, and workflows to help maintain codebases.
+In the `Git` folder, learn version control fundamentals with Git. Topics covered include repository management, commit practices, branching, and workflows to help maintain codebases. The following files provide specific exercises:
+
+- **[1.GitFundamentals.md](Git/1.GitFundamentals.md)**: Covers core Git concepts, including repository creation, commits, branching, and merging workflows.
+- **[2.Markdown.md](Git/2.Markdown.md)**: Introduces Markdown syntax for documentation, providing exercises on formatting, linking, and structuring project files.
 
 ## C Programming
 
