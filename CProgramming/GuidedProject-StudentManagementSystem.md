@@ -58,23 +58,15 @@ Develop a menu-driven application that manages student data using structs, array
 
 ### **Struct and Function Hints**
 
-1. **Struct Declaration**:  
+- **Struct Declaration**:  
    Declare the `Student` struct with `name`, `id`, and `grade` fields:
    ```c
-   struct Student {
+   typedef struct Student {
        char name[100];
        int id;
        float grade;
-   };
+   } Student;
    ```
-
-2. **Function Signatures**:
-   - `void printStudents(Student students[], int size);`
-   - `float findAverageGrade(Student students[], int size);`
-   - `int searchByID(Student students[], int size, int id);`
-   - `void sortStudentsByGrade(Student students[], int size);`
-
----
 
 ### **Menu-Driven Application Hints**
 
