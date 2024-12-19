@@ -26,7 +26,8 @@ void displayBoard(char board[3][3]) {
 
 // Function to check if a move is valid
 int isValidMove(char board[3][3], int row, int col) {
-    return row >= 0 && row < 3 && col >= 0 && col < 3 && board[row][col] == ' ';
+    return row >= 0 && row < 3 
+           && col >= 0 && col < 3 && board[row][col] == ' ';
 }
 
 // Function to check if a player has won

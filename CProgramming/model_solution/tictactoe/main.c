@@ -24,7 +24,12 @@ int main() {
         }
 
         // Switch player
-        currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
+        if (currentPlayer == 'X')
+            currentPlayer == 'O';
+        else
+            currentPlayer == 'X';
+
+        // currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
     }
 
     return 0;
