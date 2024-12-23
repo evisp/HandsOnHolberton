@@ -62,6 +62,5 @@ void playTurn(char board[3][3], char player) {
         printf("Invalid move. Try again (row and column: 0-2): ");
         scanf("%d %d", &row, &col);
     }
-
     board[row][col] = player;
 }
