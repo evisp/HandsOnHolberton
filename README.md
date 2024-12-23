@@ -10,7 +10,7 @@ This repository provides hands-on exercises for Holberton students, designed to 
 - [Text Editors](#text-editors): Practice using `Vi` and `Emacs` for text editing.
 - [Git](#git): Understand Git fundamentals, including version control workflows and documentation with Markdown.
 - [C Programming](#c-programming): Explore C programming from basics to more advanced topics.
-- [Python Fundamentals](#python-programming): Learn foundational Python concepts and techniques.
+- [Python Fundamentals](#python-fundamentals): Learn foundational Python concepts and techniques.
 
 
 ## Linux Basics
