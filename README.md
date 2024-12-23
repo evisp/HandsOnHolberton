@@ -58,5 +58,5 @@ Here's the updated Python Fundamentals section with just the "Hello, World!" and
 This section covers the fundamental concepts and techniques needed to build Python applications:
 
 - **[0.HelloWorld.md](PythonProgramming/0.HelloWorld.md)**: Begin with a "Hello, World!" program to get familiar with Python syntax and structure.
-- **[1.Strings.md](PythonProgramming/1.Strings.md)**: Learn about strings in Python, including string creation, indexing, slicing, and common string operations.
+
 
