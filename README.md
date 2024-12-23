@@ -10,6 +10,7 @@ This repository provides hands-on exercises for Holberton students, designed to 
 - [Text Editors](#text-editors): Practice using `Vi` and `Emacs` for text editing.
 - [Git](#git): Understand Git fundamentals, including version control workflows and documentation with Markdown.
 - [C Programming](#c-programming): Explore C programming from basics to more advanced topics.
+- [Python Fundamentals](#python-programming): Learn foundational Python concepts and techniques.
 
 
 ## Linux Basics
@@ -49,4 +50,13 @@ Begin with C programming basics in the `CProgramming` folder, progressing throug
 - **[Bank Account Management System](GuidedProject-BankAccountManagementSystem.md)**: Develop a simple bank account system allowing users to deposit, withdraw, and view balances using structs and functions.
 - **[Student Management System](CProgramming/GuidedProject-StudentManagementSystem.md)**: Create a system to manage student records, supporting operations like adding, viewing, and editing student information.
 - **[Tic Tac Toe](CProgramming/GuidedProject-TicTacToe.md)**: Build a classic Tic Tac Toe game with user input, checking for win conditions, and displaying the game board.
+
+Here's the updated Python Fundamentals section with just the "Hello, World!" and "Strings" topics:
+
+## Python Fundamentals
+
+This section covers the fundamental concepts and techniques needed to build Python applications:
+
+- **[0.HelloWorld.md](PythonProgramming/0.HelloWorld.md)**: Begin with a "Hello, World!" program to get familiar with Python syntax and structure.
+- **[1.Strings.md](PythonProgramming/1.Strings.md)**: Learn about strings in Python, including string creation, indexing, slicing, and common string operations.
 
