@@ -20,9 +20,6 @@ This folder is designed to host resources, challenges, and activities aimed at f
 - **[Code Golf](./shortest_path/)**  
   Write the shortest solution to a problem
 
-- **[Code Jeopardy](./quizzes/)**  
-  Quizzes on syntax, libraries, and use cases.  
-
 ### Professional Skills  
 - **[Mock Interview Sessions](./interviews/)**  
   Practice Python-based technical questions with feedback.  
