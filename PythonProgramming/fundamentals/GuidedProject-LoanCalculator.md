@@ -19,6 +19,7 @@ Where:
 - \( n \) = number of payments (loan term in years multiplied by 12)
 
 The total amount paid over the loan term can be calculated as:
+
 $$
 \text{Total Payment} = M \cdot n
 $$
