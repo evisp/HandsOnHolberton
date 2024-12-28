@@ -8,7 +8,7 @@ The goal of this project is to create a loan repayment calculator that helps use
 ##### **1. Loan Repayment Formula:**
 Use the following formula to calculate the monthly repayment amount:
 
-<p style="font-size: 20px;">$$ M = \frac{P \cdot r \cdot (1 + r)^n}{(1 + r)^n - 1} $$</p>
+<p style="font-size: 28px;">$$ M = \frac{P \cdot r \cdot (1 + r)^n}{(1 + r)^n - 1} $$</p>
 
 
 
