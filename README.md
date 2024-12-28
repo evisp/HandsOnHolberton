@@ -57,6 +57,6 @@ Here's the updated Python Fundamentals section with just the "Hello, World!" and
 
 This section covers the fundamental concepts and techniques needed to build Python applications:
 
-- **[0.HelloWorld.md](PythonProgramming/fundamentals/0.HelloWorld.md)**: Begin with a "Hello, World!" program to get familiar with Python syntax and structure.
-- **[Strings.md](PythonProgramming/fundamentals/1.Strings.md)**: Learn about string manipulation, formatting, and common operations in Python.
-- **[LoopsConditionsFunctions.md](PythonProgramming/fundamentals/2.LoopsConditionsFunctions.md)**: Understand how to use loops, conditions, and functions to control the flow of your programs.
+- **[0.HelloWorld](PythonProgramming/fundamentals/0.HelloWorld.md)**: Begin with a "Hello, World!" program to get familiar with Python syntax and structure.
+- **[Strings](PythonProgramming/fundamentals/1.Strings.md)**: Learn about string manipulation, formatting, and common operations in Python.
+- **[LoopsConditionsFunctions](PythonProgramming/fundamentals/2.LoopsConditionsFunctions.md)**: Understand how to use loops, conditions, and functions to control the flow of your programs.
