@@ -16,15 +16,11 @@ This folder is designed to host resources, challenges, and activities aimed at f
 - **[Debugging Party](./debugging/)**  
   Analyze buggy code collaboratively to develop problem-solving skills.  
 
-### Fun with Code  
-- **[Code Golf](./shortest_path/)**  
-  Write the shortest solution to a problem
 
 ### Professional Skills  
 - **[Mock Interview Sessions](./interviews/)**  
   Practice Python-based technical questions with feedback.  
 
-- **[Project Show-and-Tell](./projects)**  
-  Students showcase personal projects or group work.  
+
 
 
