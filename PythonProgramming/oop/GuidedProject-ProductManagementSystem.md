@@ -1,7 +1,7 @@
 # Shopping Cart System (Python OOP Project)  
 
 ## Project Overview  
-This project is a simple shopping cart system that helps students practice key Object-Oriented Programming (OOP) concepts.  
+This project is a simple shopping cart system to help you practice key Object-Oriented Programming (OOP) concepts.  
 
 ### Concepts Covered  
 ✅ Private variables (`__var`)  
