@@ -1,7 +1,3 @@
-Here’s a clean and concise README for working with file input and output (I/O) in Python:
-
----
-
 # File Input/Output in Python
 
 This tutorial covers the essential aspects of file input and output (I/O) operations in Python, enabling you to read from and write to files using Python's built-in functions.

@@ -1,0 +1,11 @@
+ID|Name|Department|Salary
+40|Klevis Pipa|Finance|1600.0
+20|Elvis Hasa|Finance|1550.0
+98|Nikoleta Llalla|Finance|1550.0
+94|Fatjon Koci|Finance|1520.0
+90|Roland Bytyqi|Finance|1510.0
+10|Bledi Sinani|Finance|1500.0
+26|Petrit Kodra|Finance|1500.0
+75|Klajdi Aliaj|Finance|1490.0
+36|Olta Pano|Finance|1480.0
+78|Lindita Shala|Finance|1470.0
