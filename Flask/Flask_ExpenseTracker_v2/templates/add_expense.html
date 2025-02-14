@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="mb-4">Add New Expense</h2>
+{% if error %}
+  <div class="alert alert-danger">{{ error }}</div>
+{% endif %}
+<form method="post" class="row g-3">
+  <div class="col-md-4">
+    <label for="date" class="form-label">Date</label>
+    <input type="date" name="date" id="date" class="form-control" value="{{ form.date if form and form.date }}">
+  </div>
+  <div class="col-md-4">
+    <label for="category" class="form-label">Category</label>
+    <input type="text" name="category" id="category" class="form-control" value="{{ form.category if form and form.category }}">
+  </div>
+  <div class="col-md-4">
+    <label for="amount" class="form-label">Amount (Lek)</label>
+    <input type="number" step="any" name="amount" id="amount" class="form-control" value="{{ form.amount if form and form.amount }}">
+  </div>
+  <div class="col-12">
+    <label for="description" class="form-label">Description</label>
+    <textarea name="description" id="description" class="form-control">{{ form.description if form and form.description }}</textarea>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-success">Add Expense</button>
+  </div>
+</form>
+{% endblock %}
