@@ -17,7 +17,7 @@ def greet_user(name):
 #    For example, going to '/user/123' will display "This is the profile page for user with ID: 123."
 @app.route('/user/<int:user_id>')
 def user_profile(user_id):
-    return f"This is the profile page for user with ID: {user_id}."
+    return f"is the profile page for user with ID: {user_id}."
 
 # Run the Flask app and test the routes in the browser.
 # Go to http://localhost:5000/ to see the "Hello Flask!" message.
