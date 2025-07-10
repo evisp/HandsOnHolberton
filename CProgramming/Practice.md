@@ -1,99 +1,98 @@
-## C Programming Mini Tasks
+## 🍽️ Restaurant Menu Management – Tasks
 
-### Objective
-
-These tasks will help you practice working with **strings, arrays, and functions** in C. Each function solves a small real-world inspired problem.
-
-Write **separate functions** for each task. You can test them one by one in a simple `main()` program.
+In this exercise, you will write **modular functions** to manage a restaurant’s menu. These functions will let us add new menu items, display them, search for items, and update their details. Later, they can be combined into a bigger restaurant system.
 
 
-### 1. Generate Random Password
+### 1. Add a Menu Item
 
-* Write a function that generates a random password.
-* The password should contain **letters (a-z, A-Z)** and **digits (0-9)**.
-* The function should take the **password length** as an argument.
-* Return the password as a string.
+Write a function to add a new menu item to an array. Each item has:
 
-Example:
+* **name** (string)
+* **price** (float)
+* **availability** (1 = available, 0 = unavailable).
 
-```
-Input: length = 8  
-Output: "aB3kX9pQ"
+**Function Signature:**
+
+```c
+void addMenuItem(MenuItem menu[], int *size, char name[], float price, int available);
 ```
 
-### 2. Validate Username
+* `menu[]`: the array of menu items.
+* `*size`: current number of items (increment it after adding).
+* `name`: name of the new item.
+* `price`: price of the new item.
+* `available`: availability flag.
 
-* Write a function to check if a username is valid.
-* Rules:
 
-  * Username must have at least **5 characters**.
-  * It can only contain **letters and digits** (no spaces or symbols).
-* Return `1` if valid, `0` if invalid.
+### 2. Display Menu
 
-Example:
+Write a function to print all menu items in a clear table format. Only show items marked as available.
 
-```
-Input: "John99" → Output: 1 (valid)  
-Input: "jo@"     → Output: 0 (invalid)
-```
+**Function Signature:**
 
-### 3. Concatenate Strings with Prefix
-
-* Write a function that joins a **prefix** string and a **name** string.
-* Use `strcat` or `strcpy` to create the new string.
-
-Example:
-
-```
-Input: prefix = "user_", name = "alice"  
-Output: "user_alice"
+```c
+void displayMenu(MenuItem menu[], int size);
 ```
 
-### 4. Capitalize First Letter
+* `menu[]`: array of menu items.
+* `size`: current number of items in the menu.
 
-* Write a function that takes a string and **capitalizes the first letter**.
-* All other letters remain unchanged.
 
-Example:
+### 3. Search Menu Item by Name
 
-```
-Input: "hello"  → Output: "Hello"  
-Input: "Alice"  → Output: "Alice"
-```
+Write a function to search for a menu item by its name (case insensitive).
 
-### 5. Mask Password for Display
+* Return the **index** of the item if found.
+* Return **-1** if not found.
 
-* Write a function that **hides all characters** of a password with `*`.
-* The masked password should have the **same length** as the original.
+**Function Signature:**
 
-Example:
-
-```
-Input: "MySecret123"  
-Output: "***********"
+```c
+int searchMenuItem(MenuItem menu[], int size, char name[]);
 ```
 
-### 6. Check if Password is Strong
+* `menu[]`: array of menu items.
+* `size`: current number of items.
+* `name`: name of the item to search for.
 
-* Write a function to check if a password is strong.
-* A password is strong if:
 
-  * It has at least **8 characters**.
-  * It contains **at least one letter** and **at least one digit**.
-* Return `1` if strong, `0` if weak.
+### 4. Update Menu Item Price
 
-Example:
+Write a function to update the price of a menu item.
 
+* If the item is found, update its price.
+* If not found, do nothing.
+
+**Function Signature:**
+
+```c
+void updateMenuItemPrice(MenuItem menu[], int size, char name[], float newPrice);
 ```
-Input: "abc123"      → Output: 0 (weak)  
-Input: "abc123XYZ"   → Output: 1 (strong)
+
+
+### 5. Mark Item as Available/Unavailable
+
+Write a function to update the availability status of a menu item.
+
+* Input: name of the item, new availability flag (1 or 0).
+
+**Function Signature:**
+
+```c
+void setItemAvailability(MenuItem menu[], int size, char name[], int available);
 ```
 
----
 
-### 💡 Notes:
+## **Struct Definition**
 
-* Use functions like `rand()`, `strlen()`, `strcat()`, `isalpha()`, `isdigit()` as needed.
-* Make sure all strings are **null-terminated**.
-* Test each function in a simple `main()` program.
+Use this struct for menu items:
 
+```c
+#define MAX_NAME_LEN 50
+
+typedef struct {
+    char name[MAX_NAME_LEN];
+    float price;
+    int available; // 1 = available, 0 = unavailable
+} MenuItem;
+```
